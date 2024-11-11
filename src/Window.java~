@@ -57,7 +57,6 @@ public class Window extends Application {
         CALCULATOR_DISPLAY.setMaxWidth(350);
 
         CALCULATOR_DISPLAY.setOnKeyPressed(Event::consume);
-        CALCULATOR_DISPLAY.setOnKeyTyped(Event::consume);
     }
 
     private GridPane createButtonGrid() {
